@@ -6,7 +6,7 @@ antar-VLAN, dan menganalisis log router menggunakan LLM lokal (Ollama).
 ## Struktur Proyek
 
 ```
-routemind/
+jaringkita/
 ├── app.py              # UI Streamlit utama (6 halaman menu vertikal di kanan)
 ├── device.py            # Kelas MikroTikDevice generik (dipakai untuk router & switch)
 ├── collector.py         # Instance router/switch + trafik realtime (monitor-traffic)
@@ -134,7 +134,7 @@ ollama list   # pastikan qwen3.5:4b muncul
 ## 3. Setup Python
 
 ```bash
-cd routemind
+cd jaringkita
 python -m venv .venv
 
 # Windows
@@ -208,8 +208,8 @@ Langkah ini menggantikan bagian 3-5 di atas jika Anda mengerjakan di Windows 11 
 
 ### 7.2 Buka Proyek di VS Code
 
-1. Ekstrak `routemind.zip`.
-2. Buka VS Code → `File > Open Folder` → pilih folder `routemind`.
+1. Ekstrak `jaringkita.zip`.
+2. Buka VS Code → `File > Open Folder` → pilih folder `jaringkita`.
 3. Install extension **Python** (by Microsoft) dari tab Extensions (Ctrl+Shift+X)
    kalau belum ada — ini memberi syntax highlighting, IntelliSense, dan pemilihan
    interpreter.
