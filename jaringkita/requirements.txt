@@ -1,7 +1,0 @@
-streamlit>=1.32.0
-requests>=2.31.0
-python-dotenv>=1.0.0
-pandas>=2.0.0
-streamlit-option-menu>=0.3.13
-streamlit-autorefresh>=1.0.1
-fpdf2>=2.7.0
